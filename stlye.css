@@ -1,0 +1,276 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* ---------------- NavBar styling ---------------- */
+#mainNavbar{
+    top: 0px;
+    left: 0px;
+    height: 104px;
+    /* UI Properties */
+    /* background-color: rgba(133,86,54,1); */
+    background: #855636 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: rgba(255,248,245,1);
+}
+
+#firstImgNav{
+    margin-right: 200px;
+    top: 13px;
+    left: 1665px;
+    width: 54px;
+    height: 78px;
+    opacity: 1;
+}
+
+#mainNavbar .navbar-brand{
+    font: normal normal 300 30px/72px Rubik;
+     margin-right: 36px;
+}
+
+#mainNavbar #aboutMe{
+    margin-right: 82px;
+    font: normal normal 300 20px/24px Rubik;
+}
+
+#mainNavbar #aboutMe a{
+    height: 100%;
+}
+
+
+#mainNavbar #ourProducts{
+    margin-right: 65px;
+    font: normal normal 300 20px/24px Rubik;
+}
+
+#mainNavbar #ourProducts a{
+    height: 100%;
+}
+
+
+
+
+#mainNavbar #leftsideNav{
+    margin-right: 600px; 
+    font: normal normal 300 20px/24px Rubik;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#mainNavbar #expandme .nav-link {
+    color: rgba(255,248,245,1);
+  }
+
+
+
+
+  /* @media (max-width: 1880px){
+    .navbar-nav .nav-item-leftside{
+        margin-right: 580px;
+    }
+}
+
+  @media (max-width: 1850px){
+    .navbar-nav .nav-item-leftside{
+        margin-right: 500px;
+    }
+}
+
+@media (max-width: 1770px){
+    .navbar-nav .nav-item-leftside{
+        margin-right: 420px;
+    }
+}
+
+@media (max-width: 1650px){
+    .navbar-nav .nav-item-leftside{
+        margin-right: 350px;
+    }
+}
+
+@media (max-width: 1580px){
+    .navbar-nav .nav-item-leftside{
+        margin-right: 280px;
+    }
+}
+
+@media (max-width: 1500px){
+    .navbar-nav .nav-item-leftside{
+        margin-right: 200px;
+    }
+}
+
+@media (max-width: 1350px){
+    .navbar-nav .nav-item-leftside{
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 1200px){
+    .navbar-nav .nav-item-leftside{
+        margin-right: 100px;
+    }
+} */
+
+
+
+
+
+
+/* ---------------- row1 ---------------- */
+
+
+#row1 h1{
+	text-align: right;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(86,35,0,1);
+	letter-spacing: -0.4px;
+    
+} 
+
+#row1 #row1-div-p1 {
+	text-align: right;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: #562300;
+	letter-spacing: -0.4px;
+    margin-bottom: 100px;
+} 
+
+#row1{
+background-color: rgba(255,248,245,1);
+}
+#row1 #row1-div-p2 {
+    
+    position: right;
+    overflow: visible;
+    white-space: nowrap;
+    text-align:center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: lighter;
+    justify-content: center;
+    font-size: 25px;
+    color: rgba(133,86,54,1);
+    letter-spacing: -0.4px;
+    margin-top: 50;
+    text-decoration: underline;
+    text-decoration-color: rgb(169, 125, 95);
+
+}
+
+#row1 #row1-div-p2 img{
+    width: 80px;
+    height: 60px;
+    position: relative;
+    top: -3px;
+
+    }
+
+/* ---------------- row2 ---------------- */
+
+
+
+#row2 #row2-div1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #562300;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(86,35,0,1);
+	letter-spacing: -0.5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    direction: rtl;
+}
+
+/* ---------------- row3 ---------------- */
+
+#row3 .row3-p-title {
+	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(86,35,0,1);
+}
+
+#row3 .row3-p {
+    overflow: visible;
+    text-align: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgba(86,35,0,1);
+    
+}   
+
+#row3 .row3-divs {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    
+}
+#row3 .row3-img {
+margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#headingGroup p {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+
+#secondParagrahp p {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.small-image {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  }
+
+
+.content {
+    margin-top: 100px;
+}
+
+
+
+@media (max-width: 1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
