@@ -233,44 +233,48 @@ background-color: rgba(255,248,245,1);
 margin-bottom: 35px;
 }
 
+/* ---------------- row4 ---------------- */
 
 
 
-
-
-
-
-#headingGroup h1 {
-    font-weight: 100;
-    font-size: 4rem;
+#row4 #row4-div1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #562300;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(86,35,0,1);
+	letter-spacing: -0.4px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    direction: rtl;	
 }
 
-#headingGroup p {
-    font-weight: 100;
-    font-size: 1.5rem;
-}
-
-
-#secondParagrahp p {
-    font-weight: 100;
-    font-size: 1.5rem;
-}
-
-.small-image {
-    width: 100px; /* Set the desired width */
-    height: auto; /* Automatically adjust the height to maintain aspect ratio */
-  }
-
-
-.content {
-    margin-top: 100px;
+#row4-5 section{
+    background-color: rgba(255,248,245,1);
 }
 
 
 
-@media (max-width: 1200px){
-    #headingGroup h1{
-        font-weight: 100;
-        font-size: 3rem;
-    }
+#btn{
+    color: rgba(255,248,245,1);
+    width: 107px;
+    height: 35.035px;
+    background-color: rgba(225,207,182,1);
+    border: none;
+    text-align: center;
+    white-space: nowrap;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(255,248,245,1);
+	letter-spacing: -0.4px;
 }
+
