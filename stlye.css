@@ -236,6 +236,10 @@ margin-bottom: 35px;
 /* ---------------- row4 ---------------- */
 
 
+#row4-6 section{
+    background-color: rgba(255,248,245,1);
+}
+
 
 #row4 #row4-div1 {
     margin-top: 50px;
@@ -256,15 +260,10 @@ margin-bottom: 35px;
     direction: rtl;	
 }
 
-#row4-5 section{
-    background-color: rgba(255,248,245,1);
-}
 
-
-
-#btn{
+#btn-row5{
     color: rgba(255,248,245,1);
-    width: 107px;
+    width: 130px;
     height: 35.035px;
     background-color: rgba(225,207,182,1);
     border: none;
@@ -276,5 +275,88 @@ margin-bottom: 35px;
 	font-size: 20px;
 	color: rgba(255,248,245,1);
 	letter-spacing: -0.4px;
+}
+
+
+#row6 {
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#row6-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+#row6 .row6-pic-block{
+    max-width: 450px;
+}
+
+
+#row6 .product-description{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#row6 .product-description-title{
+    margin-right: 20px ;
+    display: inline-block;
+    text-align: right;
+	overflow: visible;
+	white-space: nowrap;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(86,35,0,1);
+	letter-spacing: -0.5px;
+}
+
+
+#row6 .product-price{
+    display: inline-block;
+    margin-right: 100px ;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(86,35,0,1);
+	letter-spacing: -0.5px;
+}
+
+#row6 .cart2{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+}
+
+
+
+#row6 .product-description-text-div{
+    width: 200px;
+    margin-right: 25px;
+}
+
+#row6 .product-description-text{
+    word-wrap: break-word;
+	overflow: visible;
+	line-height: 17px;
+	margin-top: -1px;
+	text-align: right;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(225,207,182,1);
+	letter-spacing: -0.5px;
 }
 
